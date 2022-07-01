@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Lobster&display=swap');
+*{
+    padding: 10;
+    margin: 10;
+}
+body{
+    background-color: black;
+    font-family: 'Gentium Book Plus', serif;
+}
+.container{
+    background-color: blue;
+    height: 10vh;
+    width: 10vw;
+}
+.d1{
+    background-color: brown;
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.d1 img{
+    width: 100vw;
+    height: 40vh;
+}
+.d2{
+    background-color: aquamarine;
+    height: 40vh;
+    width: 100vw;
+    text-align: center;
+}
+.d2 img{
+    height: 20vh;
+    width: 20vw;
+}
+.d3{
+    background-color: blueviolet;
+    height: 40vh;
+    width: 100vw;
+    text-align: center;
+}
+.d3 img{
+    width: 15vw;
+    height: 20vh;
+}
+.d4{
+    background-color: green;
+    height: 40vh;
+    width: 100vw;
+    text-align: center;
+}
+.d4 img{
+    height: 20vh;
+    width: 20vw;
+}
+.d1 p{
+    position: absolute;
+    font-size: 3em;
+    color: rgb(255, 0, 221);
+}
+img{
+    border: 1em;
+    border-style: outset;
+}
